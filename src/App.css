@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #01eda7;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  border: 2px solid #01eda7;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.card2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border: 2px solid #01eda7;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.other-comp {
+  margin-left: 20px;
+  width: 50vh;
+}
+
+/* .other-comp {
+  display: flex;
+  justify-content: space-between;
+} */
